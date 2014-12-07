@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>jQuery portfolio</title>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filter.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="header">
+        <div id="menu">
+            <h2>jQuery Portfolio</h2>
+            <input id="search" style="float: right" type="text" placeholder="search..."/>
+        </div>
+
+    </div><!--end header -->
+
+    <div id="overlay"></div>
+
+    <div id="frame">
+        <table id="frame-table" >
+            <tr>
+
+
+                <td id="left">
+                    <img src="images/left.png" alt="left">
+                </td>
+                <td id="right">
+                    <img src="images/right.png" alt="right">
+                </td>
+
+
+
+
+            </tr>
+        </table>
+
+        <img id="main" src="" alt="">
+        <div id="description">
+            <p></p>
+        </div>
+
+    </div>
+
+    <div id="wrapper">
+        <ul id="filter">
+            <li class="active">all</li>
+            <li>nature</li>
+            <li>city</li>
+            <li>architecture</li>
+        </ul>
+            <ul id="portfolio">
+                <li data-keyword= "car" class="nature"><img id="1" src="images/1.jpg" alt="img"></li>
+                <li data-keyword= "highway" class="nature"><img id="2" src="images/2.jpg" alt="img"></li>
+                <li data-keyword= "road" class="all city"><img id="3" src="images/3.jpg" alt="img"></li>
+                <li data-keyword= "people" class="all city"><img id="4" src="images/4.jpg" alt="img"></li>
+                <li data-keyword= "words" class="all architecture"><img id="5" src="images/5.jpg" alt="img"></li>
+                <li data-keyword= "ppt" class="all architecture"><img id="6" src="images/6.jpg" alt="img"></li>
+
+            </ul>
+        </div><!--end wrapper  -->
+
+
+
+</body>
+</html>
